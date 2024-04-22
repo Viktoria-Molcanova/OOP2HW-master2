@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.*;
 //Исправила. Теперь коллекция GenealogyTree содержит список всех членов семьи, включая корневой элемент.
 // Методы сортировки и печати теперь работают с этим списком, позволяет отображать и сортировать всех членов семьи.
-// Добавлен метод getAllPersons(), который возвращает список всех членов семьи.
+
 
 public class GenealogyTree<T> implements Iterable<T>, Serializable {
     private final T root;
